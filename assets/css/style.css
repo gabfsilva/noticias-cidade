@@ -1,0 +1,249 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(../img/detalhe-topo.png) no-repeat top right;
+    padding-top: 25px;
+}
+
+#logo {
+    width: 166px;
+    margin-left: 150px;
+    padding-bottom: 30px;
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -3000px;
+}
+
+
+#menu {
+    float: left;
+    width: 780px;
+    height: 47px;
+    margin-top: 25px;
+    margin-left: 15%;
+    
+}
+
+#menu ul a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 0.5em 1.7em;
+    line-height: 2.1em;
+    background: url(../img/divisor.png) repeat-y;
+    font-size: 1em;
+}
+
+#menu ul a:hover {
+    background: rgb(236, 52, 77);
+    color: #69001d;
+}
+
+#menu ul {
+    float: left;
+    list-style: none;
+    background: #b10333;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu ul .sem-divisor a {
+    background: none;
+}
+
+body.home #menu a#home,
+body.brasil #menu a#brasil,
+body.internacional #menu a#internacional,
+body.economia #menu a#economia,
+body.saude #menu a#saude,
+body.ciencia #menu a#ciencia,
+body.fotos #menu a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#conteudo-lateral {
+    width: 240px;
+    float: left;
+    margin: 0 0 20px -1109px;
+}
+
+#conteudo-principal{
+    width: 410px;
+    float: left;
+    margin: 0 0 20px 255px;
+}
+
+#duas-colunas #conteudo-principal{
+    width: 850px;
+}
+
+#uma-coluna #conteudo-principal{
+    width: 1280px;
+    margin: 0 0 20px 0;
+
+}
+
+#conteudo-secundario {
+    width: 410px;
+    float: left;
+    margin: 0 0 20px 30px;
+}
+
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1em    ;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+#entrevistados ul a {
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+    color: #000;
+}
+
+#entrevistados a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+.caixa-conteudo label {
+    display: block;
+    cursor: pointer;
+}
+
+.caixa-conteudo input {
+    font-size: 0.9em;
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #294c71;
+}
+
+input.submit {
+    width: 80px;
+    background: #b10333;
+    color: #fff;
+    border: 2px solid #870529;
+    cursor: pointer;
+}
+
+.caixa-conteudo{
+    margin: 10px;
+}
+
+#conteudo-principal .caixa-conteudo h3{
+    font-size: 0.8em;
+    background: #b10333;
+    color: #fff;
+    padding: 5px;
+    display: inline;
+    text-transform: uppercase;
+}
+
+img {
+    margin: 10px 0 10px 0;
+    border: 2px solid #dfdfdf;
+}
+
+#conteudo-secundario h3 {
+    font-size: 0.8em;
+    background: #de003e;
+    color: #fff;
+    padding: 5px;
+    display: inline;
+    text-transform: uppercase;
+}
+
+.caixa .caixa-conteudo #lista-noticias li a h3{
+    font-size: 1em;
+    background: none;
+    color: #3e7ab9;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+#lista-noticias {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 100px;
+    padding-bottom: 10px; 
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#lista-noticias li a p {
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+#container-footer {
+    background: #294c71;
+    padding: 20px;
+}
+
+#footer {
+    width: 1080px;
+    margin: 0 auto;
+    color: #fff;
+}
